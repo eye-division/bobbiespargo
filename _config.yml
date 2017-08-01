@@ -6,18 +6,18 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Neat Eye Gallery
-subtitle: A base Eye Gallery built on Bourbon and Neat
+title: Bobbie Spargo
+subtitle: Eye Gallery site for Bobbie Spargo
 name: Alun Ward
-description: A base theme built on Bourbon and Neat
+description: Bobbie Spargo website
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.example.com"
-logo: "/assets/logo.png"
-email: a.ward@eyedivision.com
+url: "http://www.bobbiespargo.com"
+logo: "/siteicon.png"
+email: bobbiespargo@aol.com
 
 # Build settings
 markdown: kramdown
@@ -51,6 +51,8 @@ defaults:
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
+#Google Recaptcha for contact form
+recaptcha_site_key: 6Ld_UCsUAAAAAOff_4JE6Uq5ZfKicBMZefuoaQsD
 
 # Social icons and sharing options
 #
@@ -135,10 +137,10 @@ social:
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
-    fb_image: "/assets/logo.png"
+    fb_image: "/siteicon.png"
     fb_image_width: 612
     fb_image_height: 605
     fb_image_type: "image/png"
 
-    twitter_image: "/assets/logo.png"
+    twitter_image: "/siteicon.png"
 

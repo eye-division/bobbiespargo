@@ -1,0 +1,71 @@
+/* custom CSS for artist */
+/* colours: 
+top header bg:	#cbb8a8
+orange:			#fe7301
+body colour:	#f8efea
+*/
+body {
+	font-family: Verdana, Tahoma, helvetica, arial, sans-serif;
+	font-size:small;
+	background:url('images/bg.png') repeat-x #f8efea;
+}
+.container { border:none; margin-bottom:2em; background-color:transparent;  }
+a:link, a:visited { color:#FE7301; }
+/* customised menus */
+.top { padding-top:5em; }
+header { margin-right:0px; float:left; background:transparent; }
+nav { 
+	border-top:none;
+	border-bottom:none;
+	padding-top:3em;
+	background:transparent;
+}
+nav li a { 
+	color:#503b29;
+	padding: 0.9em 0.6em;
+	background:transparent;
+	font-size:15px;
+}
+nav a:link, nav a:visited { color:#503b29; }
+nav a:hover { color:#000; background:transparent; }
+/* selected categories etc */
+nav a.selected, nav a.selected:link { color:#000; background:transparent; }
+nav a.selected:visited { color:#000; background:transparent;  }
+
+/* subnav for Bobbie is vertical list */
+#subnav { border-bottom:none; padding-bottom:1em; margin-bottom:2em;   }
+#subnav ul { margin:0 auto; display:inline-block; margin:0; padding-left:0;}
+#subnav ul li { float:none; list-style:none; padding: 0 0 0.9em 0; font-size:larger; }
+
+#subnav li a { margin:0 0; border:none; text-decoration:none; color:#666; padding: 0 0 0 25px;}
+#subnav a:hover { color:#000; background-color:transparent;}
+#subnav a.selected, #subnav a.selected:link { color:#fe7301; background:url('images/submenu.png') no-repeat; }
+/* header */
+
+h1, h2, h3, h4 { color:#fe7301; }
+h2 { font-size: 1.6em;}
+header h1 { line-height:normal; margin-bottom:0; float:left;}
+
+/* image replacement header */
+h1 a:link, h1 a:visited, h1 a:hover { color:#503b29; }
+header h1 a { display:block; text-indent:-9999px; background:url('../images/logo.png') no-repeat; width:336px; height:65px;  }
+
+strong { color:#fe7301; }
+
+#content { background:#f8efea; }
+
+.gallery { background-color:#FFE9C2; }
+
+#playercontainer { margin:0 auto; text-align:center; }
+
+#page { min-height:300px; }
+#page ul { margin-left:0; padding-left:0;  list-style:none; }
+#page ul li { padding-left:15px;  background:url('images/list.png') no-repeat; }
+
+legend { color:#fe7301; }
+
+#gallery { min-height:500px; }
+
+#thumbs { border-top:1px solid #fe7301; border-bottom:1px solid #fe7301; margin-top:1em;  }
+
+.supersize { float:right; font-style:italic; padding-right:6em; margin:0 0 1em; font-size:small; }
