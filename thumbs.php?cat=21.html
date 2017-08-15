@@ -2,8 +2,7 @@
 layout: empty
 permalink: /thumbs.php?cat=21.html
 ---
-<!DOCTYPE HTML>
-<html>
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Contact Bobbie Spargo</title>
@@ -62,32 +61,34 @@ jQuery(function(){
     		<div id="content" class="span-22 prepend-1 append-1">
 		<div id="address"><br />020 8487 9613<br />07957 433596</div>
 
-    <!-- <input type="hidden" name="_to" value="bobbiespargo@aol.com"> -->
+    <!--
+    <input type="hidden" name="_to" value="bobbiespargo@aol.com">
+    <input type="hidden" name="_cc" value="a.ward@eyedivision.com">
+    -->
     <form action="/thanks/" method="post" id="contact-form">
 
       <fieldset>
+          <input type="hidden" name="_to" value="a.ward@eyedivision.com">
 
-            <input type="hidden" name="_to" value="a.ward@eyedivision.com">
-            <input type="hidden" name="_cc" value="a.ward@eyedivision.com">
-            <input type="hidden" name="_subject" value="Web form">
-            <p>
-            <label for="name">Name:</label>
-            <input type="text" name="name">
-            </p>
-            <p>
-            <label for="_replyto">Email:</label>
-            <input type="text" name="_replyto">
-            </p>
-            <p>
-            <label>Message</label>
-            <textarea name="message"></textarea>
-            </p>
-            {% if site.recaptcha_site_key %}
-            <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
-            {% endif %}
-        <p>
+          <input type="hidden" name="_subject" value="Web form">
+          <p>
+          <label for="name">Name:</label>
+          <input type="text" name="name">
+          </p>
+          <p>
+          <label for="_replyto">Email:</label>
+          <input type="text" name="_replyto">
+          </p>
+          <p>
+          <label>Message</label>
+          <textarea name="message"></textarea>
+          </p>
+          {% if site.recaptcha_site_key %}
+          <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
+          {% endif %}
+          <p>
             <input type="submit" value="Send message">
-            </p>
+          </p>
       </fieldset>
 
       </form>
@@ -99,4 +100,4 @@ jQuery(function(){
      </div><!-- end container -->
 
 	</body>
-	</html>
+
